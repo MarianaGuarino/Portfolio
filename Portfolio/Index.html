@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" id="menuIcon">
+            &#9776; <!-- Ícone do menu (três linhas) -->
+        </div>
+        <nav id="menuNav" class="menu-hidden">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <img src="link-para-sua-imagem.jpg" alt="Seu Nome">
+        <h1>Seu Nome</h1>
+    </section>
+
+    <main>
+        <section id="sobre">
+            <h1>Sobre</h1>
+            <p>Bem-vindo ao meu portfólio! Eu sou [Seu Nome], um desenvolvedor web com paixão por criar soluções inovadoras.</p>
+        </section>
+
+        <section id="projetos">
+            <h1>Projetos</h1>
+            <div class="projetos-container">
+                <div class="projeto">
+                    <h2>Projeto 1</h2>
+                    <p>Descrição do projeto 1.</p>
+                </div>
+                <div class="projeto">
+                    <h2>Projeto 2</h2>
+                    <p>Descrição do projeto 2.</p>
+                </div>
+                <!-- Adicione mais projetos aqui -->
+            </div>
+        </section>
+
+        <section id="certificados">
+            <h1>Certificados</h1>
+            <div class="certificado">
+                <img src="link-para-imagem-certificado1.jpg" alt="Certificado 1">
+                <p><a href="https://www.linkedin.com/in/seu-perfil/certificados/certificado1" target="_blank">Ver no LinkedIn</a></p>
+            </div>
+            <div class="certificado">
+                <img src="link-para-imagem-certificado2.jpg" alt="Certificado 2">
+                <p><a href="https://www.linkedin.com/in/seu-perfil/certificados/certificado2" target="_blank">Ver no LinkedIn</a></p>
+            </div>
+        </section>
+
+        <section id="experiencias">
+            <h1>Experiências</h1>
+            <div class="experiencia">
+                <h2>Experiência 1</h2>
+                <p>Detalhes sobre a experiência 1.</p>
+            </div>
+            <div class="experiencia">
+                <h2>Experiência 2</h2>
+                <p>Detalhes sobre a experiência 2.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h1>Contato</h1>
+            <form id="contactForm">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
